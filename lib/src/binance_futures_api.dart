@@ -10,7 +10,9 @@ import 'package:web_socket_channel/io.dart';
 import 'rest/enums.dart';
 
 class BinanceFutures {
-  final String endpoint = "fapi.binance.com";
+  final String endpoint = "testnet.binancefuture.com";
+  //final String endpoint = "fapi.binance.com";
+  
   final String wsEndpoint = "wss://fstream.binance.com";
   int timestampDifference = 0;
   String? _apiKey;
